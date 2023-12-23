@@ -1,0 +1,17 @@
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.row{
+    display: flex;
+}
+.links{
+    height: 100px;
+    padding: 10px;
+}
+.contact{
+    font-size: 35px;
+}

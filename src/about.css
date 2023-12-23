@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    color: #ffffff;
+    height: 40vh;
+    background-color: rgb(44, 39, 39);
+    margin: 20px 10px;
+    box-shadow: 0px 5px 5px grey;
+    box-shadow: 10px 5px 5px grey;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.container1 > h1{
+    align-self: center;
+    padding-top: 25px ;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+@media screen and (max-width:900px ) {
+    .container1{
+        flex-direction: column;
+        height: 75vh;
+    }
+    p{
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+}
