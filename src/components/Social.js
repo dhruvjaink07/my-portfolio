@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import '../social.css'
-import Gmail from '../assets/gmail.png'
-import Linkedin from '../assets/linkedin.png'
-import github from '../assets/github.png'
-import X from '../assets/twitter.png'
-import Insta from '../assets/instagram.png'
+import Gmail from '../assets/gmail.svg'
+import Linkedin from '../assets/linkedin.svg'
+import github from '../assets/github.svg'
+import X from '../assets/twitter.svg'
+import Insta from '../assets/instagram.svg'
 
 const Social = ()=>{
     return(
@@ -11,23 +12,24 @@ const Social = ()=>{
             <h2 className='contact'>
                 Contact Me
             </h2>
-            <div className="row">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhruvkishorjain2508@gmail.com" className='links'>
-                <img src={Gmail} alt="" height={"50px"}/>
-            </a>
-            <a href="https://www.linkedin.com/in/dhruv-jain-0ab564251/https://www.linkedin.com/in/dhruv-jain-0ab564251/" className='links'>
-                <img src={Linkedin} alt="" height={"50px"}/>
-            </a>
-            <a href="https://github.com/dhruvjaink07" className='links'>
-                <img src={github} alt="" height={"50px"}/>
-            </a>
-            <a href="https://twitter.com/djain007" className='links'>
-                <img src={X} alt="" height={"50px"}/>
-            </a>
-            <a href="https://www.instagram.com/dhruvjaink/" className='links'>
-                <img src={Insta} alt="" height={"50px"}/>
-            </a>
-            </div>
+            <div class="card">
+  <span>Social</span>
+  <a class="social-link" href="https://www.linkedin.com/in/dhruv-jain-0ab564251/https://www.linkedin.com/in/dhruv-jain-0ab564251/">
+    <img src={Linkedin} alt=""/>
+  </a>
+  <a class="social-link" href="https://github.com/dhruvjaink07">
+   <img src={github} alt="" />
+  </a>
+  <a class="social-link" href="https://twitter.com/djain007">
+    <img src={X} alt="" />
+  </a>
+  <a class="social-link" href="https://www.instagram.com/dhruvjaink/">
+    <img src={Insta} alt="" />
+  </a>
+  <a class="social-link" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhruvkishorjain2508@gmail.com">
+    <img src={Gmail} alt="" />
+  </a>
+</div>
         </div>
     );
 }

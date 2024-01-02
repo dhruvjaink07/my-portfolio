@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* Scroll Bar */
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #a5b6ef;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+  background-color: #333;
+}
