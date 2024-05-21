@@ -12,7 +12,7 @@ function Intro() {
       </div>
       <div className="intro">
         <h1 className=''>Hey! This is Dhruv Jain</h1>
-        <h2>Frontend Developer..</h2>
+        <h2>Mobile Application Developer..</h2>
         {/* <h3>Final Year CS Diploma Student</h3> */}
 
       </div>
